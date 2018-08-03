@@ -6566,7 +6566,8 @@ return /******/ (function(modules) { // webpackBootstrap
           var returnData = {
             user: new _CognitoUser2.default(cognitoUser),
             userConfirmed: data.UserConfirmed,
-            userSub: data.UserSub
+            userSub: data.UserSub,
+            userCodeDeliveryDetails: data.CodeDeliveryDetails
           };
 
           return callback(null, returnData);
